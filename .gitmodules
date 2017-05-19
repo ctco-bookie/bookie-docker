@@ -1,0 +1,6 @@
+[submodule "bookie-server"]
+	path = bookie-server
+	url = https://github.com/ctco-dev/bookie-server.git
+[submodule "bookie-client"]
+	path = bookie-client
+	url = https://github.com/ctco-dev/bookie-client.git
