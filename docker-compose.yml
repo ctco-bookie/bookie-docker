@@ -6,8 +6,6 @@ services:
       - bookie.env
   frontend:
     build: bookie-client
-    environment:
-      - REACT_APP_BOOKIE_SERVER_URL: /api
   proxy:
     build: .
     ports:

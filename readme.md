@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/ctco-dev/bookie-docker.git
 cd bookie-docker
-git submodule init && git submodule update
+git submodule foreach git pull
 ```
 
 ## Environment
